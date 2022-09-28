@@ -1,0 +1,29 @@
+.contenedor-task-component{
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    padding: 0 5px;
+    border: solid 2px #F8EDE3;
+    border-radius: 5px;
+}
+
+.contenedor-texto{
+    display: flex;
+    align-items: center;
+    width: 79%;
+    cursor: pointer;
+}
+
+#eliminar{
+    font-size: 18px;
+    margin-right: 3px;
+    color: #6e6172;
+}
+
+#eliminar:hover{
+    cursor: pointer;
+    font-size: 22px;
+}
