@@ -35,7 +35,9 @@ http://localhost:3000/
 ## Construido con
 
 1.NPM - sistema de gestion de paquetes
+
 2.React JS - Bootstrap Icons
+
 3.Noje JS
 
 ## Autores
