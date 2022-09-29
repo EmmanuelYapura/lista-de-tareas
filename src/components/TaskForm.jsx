@@ -17,8 +17,15 @@ export function TaskForm( { agregarTarea } ){
         }
     }
 
+    const crearTareaConTecla = (e) => {
+        if(e.key === 'Enter') {
+            e.preventDefault()
+            crearTarea(e)
+        } 
+    }
+
     return(
-        <form id="formulario">
+        <form onKeyDown={crearTareaConTecla} id="formulario">
             <input ref={textoRef} id='texto' type="text" placeholder="Agregar una tarea"/>
             <i onClick={crearTarea} id='agregar' className="bi bi-plus-square-fill"></i>
         </form>
